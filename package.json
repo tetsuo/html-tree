@@ -1,0 +1,33 @@
+{
+  "name": "html-tree",
+  "version": "1.0.0",
+  "description": "transform stream to parse html into parse-trees",
+  "main": "index.js",
+  "dependencies": {
+    "stream-combiner2": "^1.0.2",
+    "through2": "^0.6.5",
+    "tokenize-html": "^1.0.0"
+  },
+  "devDependencies": {
+    "tap": "^0.7.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tetsuo/html-tree.git"
+  },
+  "keywords": [
+    "html",
+    "parse",
+    "tree",
+    "tokenize"
+  ],
+  "author": "Onur Gunduz <ogunduz@gmail.com> (http://onurgunduz.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tetsuo/html-tree/issues"
+  },
+  "homepage": "https://github.com/tetsuo/html-tree"
+}
